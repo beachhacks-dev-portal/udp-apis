@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: fav-apis
+  description: A collection of commonly used APIs
+spec:
+  targets:
+    - ./apis/spotify-api.yaml
+    - ./apis/apple-api.yaml
